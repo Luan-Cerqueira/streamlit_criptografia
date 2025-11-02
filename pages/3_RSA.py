@@ -6,6 +6,16 @@ st.set_page_config(page_title="Criptografia RSA", page_icon="🔐")
 # Interface principal
 st.title("🔐 Sistema de Criptografia RSA")
 st.markdown("---")
+st.markdown("""
+            # Criptografia RSA
+            ### O que é?
+
+            **RSA (Rivest-Shamir-Adleman)** é um dos primeiros sistemas de criptografia de chave pública e é amplamente utilizado para transmissão segura de dados. Neste sistema de criptografia, a chave de encriptação é pública e é diferente da chave de decriptação que é secreta (privada). Um usuário do **RSA** cria e publica uma chave (chave pública) baseada em dois números primos grandes, junto com um valor auxiliar. Os números primos devem ser mantidos secretos.
+
+            ### Como funciona?
+
+            O RSA envolve um par de chaves, uma chave pública que pode ser conhecida por todos e uma chave privada que deve ser mantida em sigilo. Toda mensagem cifrada usando uma chave pública só pode ser decifrada usando a respectiva chave privada. A criptografia RSA atua diretamente na internet, por exemplo, em mensagens de emails, em compras on-line e o que você imaginar; tudo isso é encriptado e decriptado pela criptografia RSA.
+            """)
 
 # Menu lateral
 menu = st.sidebar.selectbox(

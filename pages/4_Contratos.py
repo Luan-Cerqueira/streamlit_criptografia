@@ -60,7 +60,6 @@ elif menu_selection == "2. Consultar Contrato por Número":
     if manager.total_contracts == 0:
         st.warning("Nenhum contrato registrado ainda. Por favor, envie um arquivo primeiro.")
     else:
-        # Usa um slider/select box para o número do contrato
         selected_number = st.selectbox(
             "Selecione o número do contrato:",
             options=manager.contract_numbers,

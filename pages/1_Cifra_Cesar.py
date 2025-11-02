@@ -51,7 +51,7 @@ def start_decode():
     st.session_state.mode = "decodificado"
 
 st.markdown("""
-            # Cifra de Cesar
+            # Cifra de César
             ### O que é?
 
             Em criptografia, a Cifra de César, também conhecida como cifra de troca, código de César ou troca de César, é uma das mais simples e conhecidas técnicas de criptografia.
